@@ -1,47 +1,79 @@
 ﻿/*Header navbar menu color */
 
 :root {
-  --logo-color: rgba(41, 22, 111,1);
+    --logo-color: rgba(41, 22, 111,1);
 }
 
-.navbar
-{
-    background-color:#fff;
+.navbar {
+    background-color: #fff;
 }
 
-.w_menu .nav-item .nav-link
-{
+.w_menu .nav-item .nav-link {
     color: var(--logo-color);
 }
 
-.w_menu .nav-item:hover .nav-link, .w_menu .nav-item.active .nav-link
-{
-    color:var(--logo-color);
+.w_menu .nav-item:hover .nav-link, .w_menu .nav-item.active .nav-link {
+    color: var(--logo-color);
 }
 
-.menu > .nav-item:hover .nav-link, .menu > .nav-item.active
-{
-    color:var(--logo-color);
+.menu > .nav-item:hover .nav-link, .menu > .nav-item.active {
+    color: var(--logo-color);
 }
 
-.menu > .nav-item.submenu:hover .dropdown-menu .nav-item .nav-link
-{
-    color:var(--logo-color);
-}
-.btn_get_two
-{
-    background-color:var(--logo-color);
-    border-color:var(--logo-color);
+.menu > .nav-item.submenu:hover .dropdown-menu .nav-item .nav-link {
+    color: var(--logo-color);
 }
 
-.btn_get_two:hover
-{
-    color:var(--logo-color);
+.btn_get_two {
+    background-color: var(--logo-color);
+    border-color: var(--logo-color);
 }
 
-.contact_form_box .btn_three
-{
-    background-color:var(--logo-color);
-    border-color:var(--logo-color);
+    .btn_get_two:hover {
+        color: var(--logo-color);
+    }
+
+.contact_form_box .btn_three {
+    background-color: var(--logo-color);
+    border-color: var(--logo-color);
 }
 
+.login_area .login_info {
+    padding: 60px 50px 60px 0px;
+}
+
+.cursor {
+    cursor: pointer;
+    color: #677294;
+}
+
+    .cursor:hover {
+        color: var(--logo-color);
+    }
+
+.s_integration_item {
+    color: #007bff;
+    height: 300px;
+    max-height: 500px;
+}
+
+
+
+@media (min-width:320px)  { .yscrolll {
+    overflow-y: auto ;
+} }
+@media (min-width:480px)  { .yscrolll {
+    overflow-y: auto ;
+} }
+@media (min-width:600px)  { .yscrolll {
+    overflow-y: auto ;
+} }
+@media (min-width:801px)  { .yscrolll {
+    overflow-y: hidden ;
+} }
+@media (min-width:1025px) { .yscrolll {
+    overflow-y: hidden ;
+} }
+@media (min-width:1281px) { .yscrolll {
+    overflow-y: hidden ;
+} }
