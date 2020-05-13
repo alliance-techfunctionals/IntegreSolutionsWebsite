@@ -42,6 +42,12 @@
     padding: 60px 50px 60px 0px;
 }
 
+.login_area .login_info::before {
+    background: none;
+}
+
+
+/*visit us address div classes*/
 .cursor {
     cursor: pointer;
     color: #677294;
@@ -53,27 +59,56 @@
 
 .s_integration_item {
     color: #007bff;
-    height: 300px;
-    max-height: 500px;
+    display: flex;
+    flex: 1 auto;
+    align-items: stretch;
+    flex-flow: column;
 }
 
+.rowflex {
+    display: flex;
+    flex-flow: row;
+    align-items: stretch;
+}
+/*visit us address div classes*/
 
 
-@media (min-width:320px)  { .yscrolll {
-    overflow-y: auto ;
-} }
-@media (min-width:480px)  { .yscrolll {
-    overflow-y: auto ;
-} }
-@media (min-width:600px)  { .yscrolll {
-    overflow-y: auto ;
-} }
-@media (min-width:801px)  { .yscrolll {
-    overflow-y: hidden ;
-} }
-@media (min-width:1025px) { .yscrolll {
-    overflow-y: hidden ;
-} }
-@media (min-width:1281px) { .yscrolll {
-    overflow-y: hidden ;
-} }
+
+
+/*Login body*/
+@media (min-width:320px) {
+    /*Login body*/
+    .yscrolll {
+        overflow-y: auto;
+    }
+}
+
+@media (min-width:480px) {
+    .yscrolll {
+        overflow-y: auto;
+    }
+}
+
+@media (min-width:600px) {
+    .yscrolll {
+        overflow-y: auto;
+    }
+}
+
+@media (min-width:801px) {
+    .yscrolll {
+        overflow-y: hidden;
+    }
+}
+
+@media (min-width:1025px) {
+    .yscrolll {
+        overflow-y: hidden;
+    }
+}
+
+@media (min-width:1281px) {
+    .yscrolll {
+        overflow-y: hidden;
+    }
+}
