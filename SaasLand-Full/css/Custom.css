@@ -1,14 +1,26 @@
 ﻿/*Header navbar menu color */
 
 :root {
-    --logo-color: rgba(41, 22, 111,1);
+    --logo-color: rgba(27, 18, 76,1);
 }
 
-.navbar {
+/*.navbar {
     background-color: #fff;
-}
+}*/
 
-.w_menu .nav-item .nav-link {
+.navbar .offcanfas_menu
+{
+    vertical-align:top;
+}
+.navbar .offcanfas_menu > .nav-item .nav-link::before
+{
+    background: var(--logo-color);
+}
+.full_header .bar_menu span
+{
+    background-color:var(--logo-color);
+}
+/*.w_menu .nav-item .nav-link {
     color: var(--logo-color);
 }
 
@@ -22,7 +34,7 @@
 
 .menu > .nav-item.submenu:hover .dropdown-menu .nav-item .nav-link {
     color: var(--logo-color);
-}
+}*/
 
 .btn_get_two {
     background-color: var(--logo-color);
@@ -99,8 +111,20 @@
     .yscrolll {
         overflow-y: hidden;
     }
+    .header_area_three
+    {
+        padding:0px;
+    }
 }
-
+@media (max-width:991px) {
+    .yscrolll {
+        overflow-y: hidden;
+    }
+    .header_area_three
+    {
+        padding:0px;
+    }
+}
 @media (min-width:1025px) {
     .yscrolll {
         overflow-y: hidden;
