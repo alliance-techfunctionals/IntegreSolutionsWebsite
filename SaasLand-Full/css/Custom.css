@@ -7,10 +7,14 @@
 /*.navbar {
     background-color: #fff;
 }*/
-.navbar-brand
+/*.navbar-brand
 {
     padding-top:1rem;
     padding-bottom:1rem;
+}*/
+.full_header
+{
+    padding:0px;
 }
 .navbar .offcanfas_menu
 {
@@ -22,8 +26,29 @@
 }
 .full_header .bar_menu span
 {
-    background-color:var(--logo-color);
+    /*background-color:var(--logo-color);*/
 }
+
+.header_area.navbar_fixed .bar_menu span
+{
+    background-color:var(--logo-color) ;
+}
+.logoB
+{
+    display:none;
+}
+
+.header_area.navbar_fixed .logoB{
+    display:inline-block;
+}
+
+.header_area.navbar_fixed .logoW{
+    display:none;
+}
+
+
+
+
 /*.w_menu .nav-item .nav-link {
     color: var(--logo-color);
 }
@@ -86,9 +111,29 @@
     flex-flow: row;
     align-items: stretch;
 }
-/*visit us address div classes*/
+/*company Profile div classes*/
+.hosting_tab .nav-item
+{
+    width: calc(100% / 4);
+}
 
+.hosting_tab .nav-item .nav-link
+{
+    line-height:30px;
+}
 
+.hosting_tab .nav-item .nav-link.active
+{
+    color: var(--logo-color);
+}
+.security_inner
+{
+    border:0px;
+}
+.img-respo
+{
+    width:100%;
+}
 
 
 /*Login body*/
@@ -107,7 +152,7 @@
         overflow-y: auto;
     }
     .bar_menu{
-         margin-top:20px;
+         margin-top:10px;
     }
 }
 
@@ -116,7 +161,7 @@
         overflow-y: auto;
     }
     .bar_menu{
-         margin-top:20px;
+         margin-top:10px;
     }
 }
 
@@ -129,7 +174,7 @@
         padding:0px;
     }
     .bar_menu{
-         margin-top:20px;
+         margin-top:10px;
     }
 }
 @media (max-width:991px) {
@@ -141,7 +186,7 @@
         padding:0px;
     }
     .bar_menu{
-        margin-top:20px;
+        margin-top:10px;
     }
 }
 @media (min-width:1025px) {
@@ -149,7 +194,7 @@
         overflow-y: hidden;
     }
     .bar_menu{
-        margin-top:40px;
+        margin-top:30px;
     }
 }
 
@@ -158,6 +203,6 @@
         overflow-y: hidden;
     }
     .bar_menu{
-        margin-top:40px;
+        margin-top:30px;
     }
 }
