@@ -21,7 +21,7 @@
 }
 
 .navbar .offcanfas_menu {
-    vertical-align: top;
+    vertical-align: middle;
 }
 
     .navbar .offcanfas_menu > .nav-item .nav-link::before {
@@ -146,6 +146,33 @@
 
 .img-respo {
     width: 100%;
+}
+
+
+/* Client Crousal  */
+
+
+.service_carousel .owl-item .service_item
+{
+    box-shadow:none;
+}
+
+.owl-carousel.owl-drag .owl-item
+{
+  width: unset !important;
+}
+
+.service_item
+{
+    
+    box-shadow:none;
+    background:none;
+    border:none;
+}
+
+.service_carousel .owl-next:hover
+{
+   background-color:var(--logo-color) !important;
 }
 
 
