@@ -4,6 +4,11 @@
     --logo-color: rgba(27, 18, 76,1);
 }
 
+.tcolor
+{
+    color:var(--logo-color);
+}
+
 /*.navbar {
     background-color: #fff;
 }*/
@@ -15,6 +20,7 @@
 .pos_footer_area {
     background: var(--logo-color);
 }
+
 
 .full_header {
     padding: 0px;
