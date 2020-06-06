@@ -198,10 +198,29 @@ align-items: center;
     box-shadow:none;
 }
 
-.owl-carousel.owl-drag .owl-item
-{
-  width: unset !important;
-}
+ .service_carousel .owl-item 
+ {
+     width: unset !important;
+ }
+
+
+ .support_testimonial_info .testimonial_slider .owl-item
+ {
+     padding:0px;
+ }
+
+ .support_testimonial_info .testimonial_slider
+ {
+     background:none;
+ }
+
+ .owl-prev{
+     display:none;
+ }
+
+  .owl-next{
+     display:none;
+ }
 
 .service_item
 {
