@@ -30,8 +30,17 @@
     width: 100%;
     max-width:100%;
 }
+.er_btn
+{
+    margin-top:30px;
+    color:#fff;
+}
 
-
+.chat_features_item .round_circle.Four {
+    background-image: -moz-linear-gradient(-140deg, #f0f483 0%, #ff6a00 100%);
+    background-image: -webkit-linear-gradient(-140deg, #f0f483 0%, #ff6a00 100%);
+    background-image: -ms-linear-gradient(-140deg, #f0f483 0%, #ff6a00 100%);
+}
 /*Partner Logo*/
 .plogo {
     width: 50px;
