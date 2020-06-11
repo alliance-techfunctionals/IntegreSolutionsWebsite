@@ -26,6 +26,10 @@
     padding:0px 15px;
 }
 
+.breadcrumb_area .breadcrumb_shap {
+    width: 100%;
+    max-width:100%;
+}
 
 
 /*Partner Logo*/
