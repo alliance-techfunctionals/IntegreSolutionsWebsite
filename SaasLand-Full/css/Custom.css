@@ -55,11 +55,32 @@
     /*width: 100%;
     max-width: 100%;*/
 }
-.er_btn
-{
-    margin-top:30px;
-    color:#fff;
+
+.startup_tab .nav-item {
+    width: calc(100% / 6);
+    display: flex;
+    flex: 1 auto;
+    align-items: stretch;
+    flex-flow: column;
 }
+    .startup_tab .nav-item:nth-child(6) .nav-link.active {
+        border-color: #66fa77;
+    }
+    .startup_tab .nav-item:nth-child(6) .icon {
+        background: #66fa77;
+    }
+
+    .startup_tab .nav-item .nav-link h3
+    {
+        padding:5px;
+    }
+
+    .er_btn {
+        margin-top: 30px;
+        color: #fff;
+    }
+
+
 
 .chat_features_item .round_circle.Four {
     background-image: -moz-linear-gradient(-140deg, #f0f483 0%, #ff6a00 100%);
@@ -90,6 +111,11 @@
     justify-content: center;
     align-items: center;
 }
+
+.hometab{
+    font-size:14px !important;
+}
+
 
 
 .pos_footer_area {
