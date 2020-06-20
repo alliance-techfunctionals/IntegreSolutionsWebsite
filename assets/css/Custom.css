@@ -19,11 +19,15 @@
     padding-top:1rem;
     padding-bottom:1rem;
 }*/
+.menu > .nav-item.submenu .dropdown-menu .nav-item:last-child
+{
+    margin-bottom:0px;
+}
 
 
 .chat_get_started_area {
     background: url(../img/home-contactus.jpg) no-repeat;
-    background-size:cover;
+    background-size: cover;
     padding-top: 120px;
 }
 .f_size_100{
