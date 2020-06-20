@@ -20,10 +20,18 @@
     padding-bottom:1rem;
 }*/
 
+
+.chat_get_started_area {
+    background: url(../img/home-contactus.jpg) no-repeat;
+    background-size:cover;
+    padding-top: 120px;
+}
+.f_size_100{
+    font-size:100px;
+}
 /*services*/
-.ex_team_item .hover_content
-{
-    padding:0px 15px;
+.ex_team_item .hover_content {
+    padding: 0px 15px;
 }
 
 .gallryplus {
