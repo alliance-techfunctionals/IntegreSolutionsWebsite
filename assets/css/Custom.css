@@ -454,3 +454,20 @@
   
 }
 
+.hover_content > .n_hover_content > h3 {
+    padding-top: 50px !important;
+}
+
+p.pagestu2 {
+    padding: 10px 0 50px 0;
+    /* width: 500px;  */
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+    -ms-overflow-style: none;
+}
+
+    p.pagestu2::-webkit-scrollbar {
+        display: none;
+    }
