@@ -471,3 +471,10 @@ p.pagestu2 {
     p.pagestu2::-webkit-scrollbar {
         display: none;
     }
+
+IndexPageSec2 {
+    padding: 10px 0 50px 0;
+    /* width: 500px;  */    
+    text-align: justify;
+    -ms-overflow-style: none;
+}
