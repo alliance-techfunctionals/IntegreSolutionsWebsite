@@ -25,7 +25,20 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/responsive.css">
     <link href="/assets/css/Custom.css" rel="stylesheet" />
+    <style>
+        .carousel-caption {
+            top:350px;
+            text-align:center;
+        }
 
+        h2 {
+            font-size: 60px;
+        }
+
+        p {
+            padding: 10px
+        }
+    </style>
 
 </head>
 
@@ -192,28 +205,61 @@
             </div>
         </div>
 
-        <section class="software_banner_area d-flex align-items-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 d-flex align-items-center">
-                        <div class="software_banner_content">
-                            <h2 class="f_500 f_size_50 w_color wow fadeInLeft" data-wow-delay="0.2s">Innovative Solutions  <span class="f_700">to</span>  Boost Your Projects </h2>
-                            <!--<p class="w_color f_size_18 l_height30 mt_30 wow fadeInLeft" data-wow-delay="0.4s">Why I say old chap that is spiffing off his nut arse pear shaped plastered Jeffrey bodge barney some dodgy.!</p>-->
-                            <div class="action_btn d-flex align-items-center mt_40 wow fadeInLeft" data-wow-delay="0.6s">
-                                <a href="#" class="software_banner_btn">Get Started</a>
-                                <a href="/assets/https://www.youtube.com/watch?v=sU3FkzUKHXU" class="video_btn popup-youtube">
+
+
+        <section>
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+
+                        <img class="d-block w-100" src="assets/img/slider_1.jpg">
+
+                        <div class="carousel-caption d-none d-md-block p0">
+                            <h1 class="f_700  w_color wow fadeInLeft" data-wow-delay="0.2s">Optimize IT Systems</h1>
+                            <h2 class="f_700 f_size_50 w_color wow fadeInLeft" data-wow-delay="0.2s">Innovative Solutions  <span class="f_700">to</span><br />  Boost Your Projects</h2>
+                            <div>
+
+                                <!--<a href="#" class="software_banner_btn">Get Started</a>
+                                <a href="https://www.youtube.com/watch?v=sU3FkzUKHXU" class="video_btn popup-youtube">
                                     <div class="icon"><i class="ti-control-play"></i></div><span>Watch Video</span>
-                                </a>
+                                </a>-->
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="software_img wow fadeInRight" data-wow-delay="0.2s">
-                            <img src="/assets/img/home5/banner_img.png" alt="">
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/img/slider_2.jpg">
+                        <div class="carousel-caption d-none d-md-block p0">
+                            <h1 class="f_700  w_color wow fadeInLeft" data-wow-delay="0.2s">We Work Remotely</h1>
+                            <h2 class="f_700 f_size_50 w_color wow fadeInLeft" data-wow-delay="0.2s">We Provide  <span class="f_700">Best IT</span><br />  Services for You</h2>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/img/slider_3.jpg">
+                        <div class="carousel-caption d-none d-md-block p0">
+                            <h1 class="f_700  w_color wow fadeInLeft" data-wow-delay="0.2s">Custom Software Development</h1>
+                            <h2 class="f_700 f_size_50 w_color wow fadeInLeft" data-wow-delay="0.2s">Everything You Need  <span class="f_700">to </span><br />   Power Your Website</h2>
                         </div>
                     </div>
                 </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
             </div>
+
         </section>
 
         <section class="saas_featured_area sec_pad dk_bg_one">
@@ -358,7 +404,7 @@
 
 
 
-        <section class="startup_fuatures_area sec_pad">
+        <section class="startup_fuatures_area d-none d-sm-block sec_pad">
             <div class="container">
                 <div class="sec_title mb_70 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
                     <h2 class="f_p f_size_30 l_height40 f_600 t_color text-center">
@@ -371,37 +417,37 @@
                 </div>
                 <ul class="nav nav-tabs startup_tab" id="myTab" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" id="market-tab" data-toggle="tab"  href="#market" role="tab" aria-controls="market" aria-selected="true">
+                        <a class="nav-link active" id="market-tab" data-toggle="tab" href="#market" role="tab" aria-controls="market" aria-selected="true">
                             <span class="icon"><i class="icon-globe"></i></span>
                             <h3 class="hometab">Smart <br> Cities</h3>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="app-tab" data-toggle="tab"  href="#app" role="tab" aria-controls="app" aria-selected="false">
+                        <a class="nav-link" id="app-tab" data-toggle="tab" href="#app" role="tab" aria-controls="app" aria-selected="false">
                             <span class="icon"><i class="icon-heart"></i></span>
                             <h3 class="hometab">Life-Science <br> & Health Care</h3>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="hubstaff-tab" data-toggle="tab"  href="#hubstaff" role="tab" aria-controls="hubstaff" aria-selected="false">
+                        <a class="nav-link" id="hubstaff-tab" data-toggle="tab" href="#hubstaff" role="tab" aria-controls="hubstaff" aria-selected="false">
                             <span class="icon"><i class="icon-cloud-download"></i></span>
                             <h3 class="hometab">Cloud<br>&nbsp; </h3>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="engine-tab" data-toggle="tab"  href="#engine" role="tab" aria-controls="engine" aria-selected="false">
+                        <a class="nav-link" id="engine-tab" data-toggle="tab" href="#engine" role="tab" aria-controls="engine" aria-selected="false">
                             <span class="icon"><i class="icon-graph"></i></span>
                             <h3 class="hometab">Banking & Financial <br> Services</h3>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="business-tab" data-toggle="tab"  href="#business" role="tab" aria-controls="business" aria-selected="false">
+                        <a class="nav-link" id="business-tab" data-toggle="tab" href="#business" role="tab" aria-controls="business" aria-selected="false">
                             <span class="icon"><i class="icon-graduation"></i></span>
                             <h3 class="hometab">Education<br>&nbsp; </h3>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="Consumer-tab" data-toggle="tab"  href="#Consumer" role="tab" aria-controls="Consumer" aria-selected="false">
+                        <a class="nav-link" id="Consumer-tab" data-toggle="tab" href="#Consumer" role="tab" aria-controls="Consumer" aria-selected="false">
                             <span class="icon"><i class="icon-basket"></i></span>
                             <h3 class="hometab">Consumer Goods <br>& Distribution</h3>
                         </a>
@@ -550,6 +596,198 @@
             </div>
         </section>
 
+        <section class="software_service_area d-sm-block d-md-none d-lg-none  sec_pad">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 text-center">
+                        <h5 class="f_p f_size_20 f_500 t_color ">
+                            Best Practices
+                            from Industry Experts
+                        </h5>
+                        <hr />
+                    </div>
+                    <div class="col-lg-4 pr_20 wow fadeInLeft" data-wow-delay="0.5s">
+
+
+                        <ul class="nav nav-tabs software_service_tab" id="myTab" role="tablist">
+                            <li class="nav-item boxshadowli">
+                                <a class="nav-link active" id="market-tab" data-toggle="tab" href="#market" role="tab" aria-controls="home" aria-selected="true">Smart Cities</a>
+                            </li>
+                            <li class="nav-item boxshadowli">
+                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Life-Science & Health Care</a>
+                            </li>
+                            <li class="nav-item boxshadowli">
+                                <a class="nav-link" id="Cloud-tab" data-toggle="tab" href="#Cloud" role="tab" aria-controls="Cloud" aria-selected="false">Cloud </a>
+                            </li>
+                            <li class="nav-item boxshadowli">
+                                <a class="nav-link" id="Banking-tab" data-toggle="tab" href="#Banking" role="tab" aria-controls="Banking" aria-selected="false">Banking & Financial Services </a>
+                            </li>
+                            <li class="nav-item boxshadowli">
+                                <a class="nav-link" id="Education-tab" data-toggle="tab" href="#Education" role="tab" aria-controls="Education" aria-selected="false">Education </a>
+                            </li>
+                            <li class="nav-item boxshadowli">
+                                <a class="nav-link" id="Goods-tab" data-toggle="tab" href="#Goods" role="tab" aria-controls="Goods" aria-selected="false">Consumer Goods & Distribution </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-lg-8 wow fadeInRight" data-wow-delay="0.15s">
+                        <div class="tab-content software_service_tab_content Cus_acc" id="myTabContent">
+
+                            <div class="tab-pane fade show boxshadow active" id="market" role="tabpanel" aria-labelledby="market-tab">
+                                <div class="startup_tab_img">
+                                    <div class="col-lg-12 seo_service_item">
+                                        <div class="row seo_service_info">
+                                            <div class="col-lg-4 col-sm-6">
+                                                <img src="/assets/img/industries/Smart City/Title Background/small.jpg" class="img-responsive mt_60" width="100%" alt="">
+                                            </div>
+                                            <div class="col-lg-8 col-sm-6">
+                                                <div class="seo_sec_title text-center mb_70">
+                                                    <h2>Smart Cities</h2>
+                                                    <p class="f_600 f_size_18 t_color text-justify">  Some definitional solutions and services are required to guide cities in the smart cities mission. In the imagination of any city dweller in India, the picture of a smart city contains a wish list of fine infrastructure and services. To provide for the aspirations and needs of the citizens, Integre Solutions ideally aims at Better management of utilities and quantification of services.</p>
+                                                    <a href="/assets/Industries-Smartcities.html" class="seo_btn seo_btn_one btn_hover btn-sm float-left">Learn More</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade boxshadow" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                <div class="startup_tab_img">
+                                    <div class="col-lg-12 seo_service_item">
+                                        <div class="row seo_service_info">
+                                            <div class="col-lg-4 col-sm-6">
+                                                <img src="/assets/img/industries/Life.jpg" class="img-responsive mt_60" width="100%" alt="">
+                                            </div>
+                                            <div class="col-lg-8 col-sm-6">
+                                                <div class="seo_sec_title text-center mb_70">
+                                                    <h2>Life-Science & Health-Care</h2>
+                                                    <p class="f_600 f_size_18 t_color text-justify">
+                                                        Integre solutions offer unique and innovative end-to-end integrated solutions for healthcare providers. Our unique solutions will enhance the efficiency of different segment i.e. physicians, hospitals, ancillary facilities, clinics, governmental health bodies, and public health organizations.
+
+                                                        Begin the digital transformation for your healthcare organization today. Our experts securely interconnect patients, doctors, and processes to increase efficiency and quality of care. We lead the industry by tailoring innovative solutions that lay the foundation for a healthier tomorrow.
+                                                    </p>
+                                                    <a href="/assets/Industries-Life-Science-Health-Care.html" class="seo_btn seo_btn_one btn_hover btn-sm float-left">Learn More</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="tab-pane fade boxshadow" id="Cloud" role="tabpanel" aria-labelledby="Cloud-tab">
+
+                                <div class="startup_tab_img">
+                                    <div class="col-lg-12 seo_service_item">
+                                        <div class="row seo_service_info">
+                                            <div class="col-lg-4 col-sm-6">
+                                                <img src="/assets/img/industries/Cloud.jpg" class="img-responsive mt_60" width="100%" alt="">
+                                            </div>
+                                            <div class="col-lg-8 col-sm-6">
+                                                <div class="seo_sec_title text-center mb_70">
+                                                    <h2>Cloud</h2>
+                                                    <p class="f_600 f_size_18 t_color text-justify">
+                                                        Integre Solutions is a next-generation managed services company that provides a comprehensive suite of transformation and support services. Integre is constantly redefining the way IT services are being delivered and consumed with assured outcomes. Our attractive portfolio of service offering spans makes us different from a traditional Infrastructure or a cloud managed services provider. Our customers endorsing the value we add to their business is the biggest testament to our promise of Experience Outcomes. We are uniquely positioned to help our clients accelerate their digital journey. We want to provide an all-in-one solution to manage the complex cloud. The idea of simplifying cloud management is what drives our innovation engine.
+                                                    </p>
+                                                    <a href="/assets/Industries-Cloud.html" class="seo_btn seo_btn_one btn_hover btn-sm float-left">Learn More</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="tab-pane fade boxshadow" id="Banking" role="tabpanel" aria-labelledby="Banking-tab">
+                                <div class="startup_tab_img">
+                                    <div class="col-lg-12 seo_service_item">
+                                        <div class="row seo_service_info">
+                                            <div class="col-lg-4 col-sm-6">
+                                                <img src="/assets/img/industries/banking.jpg" class="img-responsive mt_60" width="100%" alt="">
+                                            </div>
+                                            <div class="col-lg-8 col-sm-6">
+                                                <div class="seo_sec_title text-center mb_70">
+                                                    <h2>Banking & Financial Services</h2>
+                                                    <p class="f_600 f_size_18 t_color text-justify">
+                                                        Currently, there is an underway in the banking sector: It’s no longer the bank, but the end consumer who decides when, how, and where he wants to conduct his banking business. This needs digital technologies, mobile communication channels, and open architecture.
+
+                                                        Integre Solutions supports private commercial banks as well as public-sector credit institutions, cooperative banks, and other financial service providers with IT solutions, consulting, and outsourcing on their way to digitalization.
+                                                    </p>
+                                                    <a href="/assets/Industries-Banking-Financial-Services.html" class="seo_btn seo_btn_one btn_hover btn-sm float-left">Learn More</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade boxshadow" id="Education" role="tabpanel" aria-labelledby="Education-tab">
+                                <div class="startup_tab_img">
+                                    <div class="col-lg-12 seo_service_item">
+                                        <div class="row seo_service_info">
+                                            <div class="col-lg-4 col-sm-6">
+                                                <img src="/assets/img/industries/Education.jpg" class="img-responsive mt_60" width="100%" alt="">
+                                            </div>
+                                            <div class="col-lg-8 col-sm-6">
+                                                <div class="seo_sec_title text-center mb_70">
+                                                    <h2>Education</h2>
+                                                    <p class="f_600 f_size_18 t_color text-justify">
+                                                        Education institutions need to adjust to the new ordinary of remote learning and working. As e-learning goes standard, the basics are reproducing the order and thoroughness of the study hall experience across advanced channels for prevalent learning results. Teachers/ Professors won't just present Artificial Intelligence (AI) to understudies, yet additionally, use AI models and information diagrams to understand learning examples of understudies.<br />
+                                                        The Learning process is going through a major change with digital technology affecting all aspects of the education system. Digital learning practices can help to achieve the goals of your learning ecosystem.
+                                                    </p>
+                                                    <a href="/assets/Industries-Education.html" class="seo_btn seo_btn_one btn_hover btn-sm float-left">Learn More</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="tab-pane fade boxshadow" id="Goods" role="tabpanel" aria-labelledby="Goods-tab">
+                                <div class="startup_tab_img">
+                                    <div class="col-lg-12 seo_service_item">
+                                        <div class="row seo_service_info">
+                                            <div class="col-lg-4 col-sm-6">
+                                                <img src="/assets/img/industries/consumer.jpg" class="img-responsive mt_60" width="100%" alt="">
+                                            </div>
+                                            <div class="col-lg-8 col-sm-6">
+                                                <div class="seo_sec_title text-center mb_70">
+                                                    <h2>Consumer Goods Distribution</h2>
+                                                    <p class="f_600 f_size_18 t_color text-justify">
+                                                        Technology has changed the face of the Consumer Goods and Distribution Industry and is affecting marketing, sales, and security across the board.<br />
+
+                                                        Integre Solutions have a diverse assortment of expertise in various fields in design, infrastructure, architecture, mentoring, and development which makes us a trusted technology firm you can rely on and partner with to get you efficient service delivery to your clients while cutting costs in full satisfaction.
+                                                    </p>
+                                                    <a href="/assets/Industries-Consumer-Goods-Distribution.html" class="seo_btn seo_btn_one btn_hover btn-sm float-left">Learn More</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
         <section class="agency_about_area d-flex bg_color cusPtb_hesix sec_pad">
             <div class="col-lg-6 about_content_left ">
@@ -560,57 +798,65 @@
                 </div>
             </div>
             <div class="col-lg-6 about_img">
-                <a href="/assets/https://www.adoe.in/" class="pluse_icon"><i class="ti-plus"></i></a>
+                <a href="https://www.adoe.in/" target="_blank" class="pluse_icon"><i class="ti-plus"></i></a>
                 <div class="about_img_slider owl-carousel">
-                    <div class="item">
-                        <div class="about_item w45">
-                            <img src="/assets/img/Pr1.jpg" alt="">
-                            <div class="about_text">
-                                <span class="br"></span>
-                                <!--<h5 class="f_size_18 l_height28 mb-0">Why I say old chap that is spiffing bodge, blag pardon.</h5>-->
+                    <a href="https://www.adoe.in/" target="_blank">
+                        <div class="item">
+                            <div class="about_item w45">
+
+                                <img src="/assets/img/Pr1.jpg" alt="">
+                                <div class="about_text">
+                                    <span class="br"></span>
+                                    <!--<h5 class="f_size_18 l_height28 mb-0">Why I say old chap that is spiffing bodge, blag pardon.</h5>-->
+                                </div>
+                            </div>
+                            <div class="about_item w55">
+                                <img src="/assets/img/Pr2.jpg" alt="">
+                                <div class="about_text text_two">
+                                    <span class="br"></span>
+                                    <h5 class="f_size_18 l_height28 mb-0"></h5>
+                                </div>
+                            </div>
+                            <div class="about_item w55">
+                                <img src="/assets/img/Pr3.jpg" alt="">
+                                <div class="about_text text_two">
+                                    <span class="br"></span>
+                                    <!--<h5 class="f_size_18 l_height28 mb-0">Starkers dropped a clanger lurgy is cack excuse my French what.</h5>-->
+                                </div>
                             </div>
                         </div>
-                        <div class="about_item w55">
-                            <img src="/assets/img/Pr2.jpg" alt="">
-                            <div class="about_text text_two">
-                                <span class="br"></span>
-                                <h5 class="f_size_18 l_height28 mb-0"></h5>
+                    </a>
+                    <a href="https://www.adoe.in/" target="_blank">
+                        <div class="item">
+                            <div class="about_item w45">
+                                <img src="/assets/img/Pr2_old.jpg" alt="">
+                                <div class="about_text">
+                                    <span class="br"></span>
+                                    <!--<h5 class="f_size_18 l_height28 mb-0">Why I say old chap that is spiffing bodge, blag pardon.</h5>-->
+                                </div>
+                            </div>
+                            <div class="about_item w55">
+                                <img src="/assets/img/Pr3.jpg" alt="">
+                                <div class="about_text text_two">
+                                    <span class="br"></span>
+                                    <!--<h5 class="f_size_18 l_height28 mb-0">Oxford butty bubble and squeak wind up, brown bread the full monty.</h5>-->
+                                </div>
+                            </div>
+                            <div class="about_item w55">
+                                <img src="/assets/img/Pr2.jpg" alt="">
+                                <div class="about_text text_two">
+                                    <span class="br"></span>
+                                    <!--<h5 class="f_size_18 l_height28 mb-0">Starkers dropped a clanger lurgy is cack excuse my French what.</h5>-->
+                                </div>
                             </div>
                         </div>
-                        <div class="about_item w55">
-                            <img src="/assets/img/Pr3.jpg" alt="">
-                            <div class="about_text text_two">
-                                <span class="br"></span>
-                                <!--<h5 class="f_size_18 l_height28 mb-0">Starkers dropped a clanger lurgy is cack excuse my French what.</h5>-->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="about_item w45">
-                            <img src="/assets/img/Pr2_old.jpg" alt="">
-                            <div class="about_text">
-                                <span class="br"></span>
-                                <!--<h5 class="f_size_18 l_height28 mb-0">Why I say old chap that is spiffing bodge, blag pardon.</h5>-->
-                            </div>
-                        </div>
-                        <div class="about_item w55">
-                            <img src="/assets/img/Pr3.jpg" alt="">
-                            <div class="about_text text_two">
-                                <span class="br"></span>
-                                <!--<h5 class="f_size_18 l_height28 mb-0">Oxford butty bubble and squeak wind up, brown bread the full monty.</h5>-->
-                            </div>
-                        </div>
-                        <div class="about_item w55">
-                            <img src="/assets/img/Pr2.jpg" alt="">
-                            <div class="about_text text_two">
-                                <span class="br"></span>
-                                <!--<h5 class="f_size_18 l_height28 mb-0">Starkers dropped a clanger lurgy is cack excuse my French what.</h5>-->
-                            </div>
-                        </div>
-                    </div>
+                    </a>
+
                 </div>
             </div>
         </section>
+
+
 
         <section class="seo_fact_area sec_pad">
             <div class="home_bubble">
@@ -652,10 +898,10 @@
                 </div>
             </div>
         </section>
-       
+
         <section class="chat_get_started_area">
             <div class="container">
-                <div class="chat_get_started_content text-center mt_60">
+                <div class="chat_get_started_content text-center mt_40">
                     <h3 class="w_color f_700 wow fadeInUp " data-wow-delay="0.2s">We Take Care of Your Technology</h3>
                     <h1 class="f_size_100 f_700 w_color wow fadeInUp mt_30" data-wow-delay="0.2s">Focus on Your Business</h1>
                     <a href="/contact.html" class="chat_btn btn_hover mt_30">Contact Us</a>
@@ -757,7 +1003,7 @@
     <script src="/assets/js/plugins.js"></script>
 
     <script src="/assets/vendors/multiscroll/jquery.easings.min.js"></script>
-    
+
     <script src="/assets/vendors/multiscroll/jquery.multiscroll.extensions.min.js"></script>
 
     <script src="/assets/js/main.js"></script>

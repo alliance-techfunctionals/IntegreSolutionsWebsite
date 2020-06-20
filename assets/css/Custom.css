@@ -440,3 +440,14 @@
         align-items: center;
     }
 }
+
+
+@media (max-width: 991px) 
+{
+    .menu > .nav-item.submenu .dropdown-menu .nav-item:last-child, .menu > .nav-item.submenu.mega_menu .mega_menu_inner > .dropdown-menu > .nav-item:last-child {
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+    }
+  
+}
+
