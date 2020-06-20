@@ -49,10 +49,13 @@
     opacity: 1;
     transition: all 0.3s ease-in;
 }
-
-.pagestu2
+.carousel-caption
 {
-   line-height:22px;
+    top:350px;
+}
+
+.pagestu2 {
+    line-height: 22px;
 }
 
 .saas_featured_info .saas_featured_item {
