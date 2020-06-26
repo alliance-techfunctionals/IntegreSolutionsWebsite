@@ -9,7 +9,11 @@
 }
 
 .sec_pad {
-    padding: 60px 0;
+    padding: 30px 0px 0px 0px;
+}
+
+.blog_content {
+    padding: 30px 30px 0px 50px;
 }
 /*.navbar {
     background-color: #fff;
@@ -19,23 +23,38 @@
     padding-top:1rem;
     padding-bottom:1rem;
 }*/
-.menu > .nav-item.submenu .dropdown-menu .nav-item:last-child
-{
-    margin-bottom:0px;
+.menu > .nav-item.submenu .dropdown-menu .nav-item:last-child {
+    margin-bottom: 0px;
 }
 
+.chat_get_started_area {
+    height: 500px;
+}
 
 .chat_get_started_area {
     background: url(../img/home-contactus.jpg) no-repeat;
     background-size: cover;
     padding-top: 120px;
 }
-.f_size_100{
-    font-size:100px;
+
+.f_size_100 {
+    font-size: 100px;
 }
 /*services*/
 .ex_team_item .hover_content {
     padding: 0px 15px;
+}
+
+.seo_fact_area
+{
+    padding:60px;
+}
+.agency_about_area {
+    padding: 60px;
+}
+.saas_featured_area
+{
+    padding:60px;
 }
 
 .gallryplus {
@@ -53,9 +72,16 @@
     opacity: 1;
     transition: all 0.3s ease-in;
 }
-.carousel-caption
-{
-    top:350px;
+
+.carousel-caption {
+    top: 350px;
+}
+
+
+.slider-capbg {
+    background-color: rgba(0,0,0,0.1);
+    width: 650px;
+    padding: 10px;
 }
 
 .pagestu2 {
@@ -78,22 +104,23 @@
     align-items: stretch;
     flex-flow: column;
 }
+
     .startup_tab .nav-item:nth-child(6) .nav-link.active {
         border-color: #66fa77;
     }
+
     .startup_tab .nav-item:nth-child(6) .icon {
         background: #66fa77;
     }
 
-    .startup_tab .nav-item .nav-link h3
-    {
-        padding:5px;
+    .startup_tab .nav-item .nav-link h3 {
+        padding: 5px;
     }
 
-    .er_btn {
-        margin-top: 30px;
-        color: #fff;
-    }
+.er_btn {
+    margin-top: 30px;
+    color: #fff;
+}
 
 
 
@@ -110,14 +137,15 @@
     -webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%);
     filter: grayscale(0%);
+    filter: grayscale(0%);
 }
 
-.plogo:hover {
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    filter: grayscale(100%);
-    transition: all 0.5s ease;
-}
+    .plogo:hover {
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        filter: grayscale(100%);
+        transition: all 0.5s ease;
+    }
 
 /*menu*/
 .hamburger-menu-wrepper.show-menu .animation-box .menu-box {
@@ -127,8 +155,8 @@
     align-items: center;
 }
 
-.hometab{
-    font-size:14px !important;
+.hometab {
+    font-size: 14px !important;
 }
 
 
@@ -401,7 +429,7 @@
     }
 
     .bar_menu {
-        margin-top: 10px;
+        margin-top: 25px;
     }
 
     .nav-item > li {
@@ -411,6 +439,56 @@
 
     .hamburger-menu-wrepper.show-menu .animation-box .menu-box {
         display: block !important;
+    }
+
+    .menu > .nav-item.submenu .dropdown-menu .nav-item:last-child, .menu > .nav-item.submenu.mega_menu .mega_menu_inner > .dropdown-menu > .nav-item:last-child {
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+    }
+
+    .f_size_100 {
+        font-size: 50px;
+    }
+
+    .sliderimg {
+        object-fit: cover;
+        height: 60vh;
+    }
+
+    .carousel-caption {
+        top: 190px;
+    }
+
+    .slider-capbg {
+        width: 280px;
+    }
+
+    .n_hover_content > h3 {
+        margin-top: 40px;
+    }
+
+    .n_hover_content > p {
+        margin-bottom:38px;
+    }
+
+    .carousel-caption > .slider-capbg > h1 {
+        font-size: 20px;
+    }
+
+    .carousel-caption > .slider-capbg > h2 {
+        font-size: 25px;
+    }
+
+    .logoW {
+        width: 50px;
+    }
+
+    .logoB {
+        width: 50px;
+    }
+
+    .flogo {
+        width: 70px;
     }
 }
 
@@ -449,14 +527,7 @@
 }
 
 
-@media (max-width: 991px) 
-{
-    .menu > .nav-item.submenu .dropdown-menu .nav-item:last-child, .menu > .nav-item.submenu.mega_menu .mega_menu_inner > .dropdown-menu > .nav-item:last-child {
-        padding-bottom: 0px;
-        margin-bottom: 10px;
-    }
-  
-}
+
 
 .hover_content > .n_hover_content > h3 {
     padding-top: 50px !important;
@@ -468,7 +539,7 @@ p.pagestu2 {
     height: 400px;
     overflow-x: hidden;
     overflow-y: auto;
-    text-align: justify;
+    text-align: left !important;
     -ms-overflow-style: none;
 }
 
@@ -478,7 +549,7 @@ p.pagestu2 {
 
 IndexPageSec2 {
     padding: 10px 0 50px 0;
-    /* width: 500px;  */    
+    /* width: 500px;  */
     text-align: justify;
     -ms-overflow-style: none;
 }
