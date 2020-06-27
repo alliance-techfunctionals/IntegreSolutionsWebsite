@@ -26,10 +26,15 @@
 .hamburger-menu-wrepper {
     left: 75%;
     width: 25%;
+    background: rgba(27, 18, 76, 0.98);
 }
 .hamburger-menu-wrepper .animation-box .menu-box
 {
     width:90%;
+}
+.navbar .offcanfas_menu > .nav-item .nav-link
+{
+    font-size:1.5rem;
 }
 .navbar .offcanfas_menu {
     width: 100%;
@@ -175,10 +180,17 @@
 }
 
 
-
+/*Footer*/
 .pos_footer_area {
     background: var(--logo-color);
+    padding-top: 50px;
 }
+.h_footer_track
+{
+    padding-bottom:30px;
+}
+
+/*Header*/
 
 
 .full_header {
@@ -527,6 +539,11 @@
         justify-content: center;
         align-items: center;
     }
+    .breadcrumb_area .breadcrumb_shap {
+        width: 100%;
+        object-fit: cover;
+        height: 50vh;
+    }
 }
 
 @media (min-width:1025px) {
@@ -564,8 +581,26 @@
     }
     
 }
+@media (device-width:1366px) {
+    .navbar .offcanfas_menu > .nav-item .nav-link {
+        font-size: 1.5rem;
+    }
+}
 
-
+@media (device-width:1280px) {
+    .navbar .offcanfas_menu > .nav-item .nav-link {
+        font-size: 1.4rem;
+    }
+}
+@media (device-width:1920px) {
+    .navbar .offcanfas_menu > .nav-item .nav-link {
+        font-size: 1.9rem;
+    }
+    .breadcrumb_area .breadcrumb_shap
+    {
+        width:100%;
+    }
+}
 
 
 .hover_content > .n_hover_content > h3 {
