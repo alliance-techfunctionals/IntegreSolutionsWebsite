@@ -26,24 +26,27 @@
 .hamburger-menu-wrepper {
     left: 75%;
     width: 25%;
-    background: rgba(27, 18, 76, 0.98);
+    background: rgba(27, 18, 76, 0.80);
+    /*background: rgba(78, 56, 126,0.80);*/
 }
-.hamburger-menu-wrepper .animation-box .menu-box
-{
-    width:90%;
+
+    .hamburger-menu-wrepper .animation-box .menu-box {
+        width: 90%;
+    }
+
+.navbar .offcanfas_menu > .nav-item .nav-link {
+    font-size: 1.5rem;
 }
-.navbar .offcanfas_menu > .nav-item .nav-link
-{
-    font-size:1.5rem;
-}
+
 .navbar .offcanfas_menu {
     width: 100%;
     margin-top: -192px;
 }
-.close_icon
-{
-    z-index:1000;
+
+.close_icon {
+    z-index: 1000;
 }
+
 .menu > .nav-item.submenu .dropdown-menu .nav-item:last-child {
     margin-bottom: 0px;
 }
@@ -66,13 +69,14 @@
     padding: 0px 15px;
 }
 
-.seo_fact_area
-{
-    padding:120px 0px;
+.seo_fact_area {
+    padding: 120px 0px;
 }
+
 .agency_about_area {
     padding: 120px 0px;
 }
+
 .saas_featured_area {
     padding: 120px 0px;
 }
@@ -166,7 +170,15 @@
         filter: grayscale(100%);
         transition: all 0.5s ease;
     }
-
+.service_item img
+{
+    margin-right:-15px;
+}
+.owl-stage {
+    width: 100% !important;
+    transform: translate3d(-844px, 0px, 0px);
+    transition: all 2s ease 0s;
+}
 /*menu*/
 .hamburger-menu-wrepper.show-menu .animation-box .menu-box {
     display: flex !important;
@@ -185,9 +197,9 @@
     background: var(--logo-color);
     padding-top: 50px;
 }
-.h_footer_track
-{
-    padding-bottom:30px;
+
+.h_footer_track {
+    padding-bottom: 30px;
 }
 
 /*Header*/
@@ -202,12 +214,26 @@
 }
 
     .navbar .offcanfas_menu > .nav-item .nav-link::before {
-        background: var(--logo-color);
+        /*background: var(--logo-color);*/
+        background: #ff6a00;
     }
 
-.full_header .bar_menu span {
-    /*background-color:var(--logo-color);*/
-}
+    .navbar .offcanfas_menu > .nav-item .nav-link:hover {
+        color: #ff6a00;
+    }
+
+    .navbar .offcanfas_menu > .nav-item.submenu.show .nav-link {
+        color: #ff6a00;
+    }
+
+    .navbar .offcanfas_menu > .nav-item.submenu .dropdown-menu > .nav-item > .nav-link:hover {
+        color: #ff6a00;
+    }
+
+
+    .full_header .bar_menu span {
+        /*background-color:var(--logo-color);*/
+    }
 
 .header_area.navbar_fixed .bar_menu span {
     background-color: var(--logo-color);
@@ -446,11 +472,19 @@
     }
 }
 
+
 @media (max-width:991px) {
     .yscrolll {
         overflow-y: hidden;
     }
 
+    .navbar .offcanfas_menu > .nav-item .nav-link {
+        font-size: 1rem;
+    }
+    .navbar .offcanfas_menu > .nav-item.submenu .dropdown-menu > .nav-item > .nav-link
+    {
+        font-size:14px;
+    }
     .header_area_three {
         padding: 0px;
     }
@@ -495,7 +529,7 @@
     }
 
     .n_hover_content > p {
-        margin-bottom:38px;
+        margin-bottom: 38px;
     }
 
     .carousel-caption > .slider-capbg > h1 {
@@ -526,19 +560,20 @@
         .hamburger-menu-wrepper .animation-box .menu-box {
             width: 100%;
             overflow-x: hidden;
-           
         }
 
     .navbar .offcanfas_menu {
         width: 100%;
-        margin-top:100px;
+        margin-top: 100px;
     }
+
     .hamburger-menu-wrepper.show-menu .animation-box .menu-box {
         display: flex !important;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
     .breadcrumb_area .breadcrumb_shap {
         width: 100%;
         object-fit: cover;
@@ -561,7 +596,6 @@
         justify-content: center;
         align-items: center;
     }
-    
 }
 
 @media (min-width:1281px) {
@@ -579,28 +613,30 @@
         justify-content: center;
         align-items: center;
     }
-    
 }
-@media (device-width:1366px) {
-    .navbar .offcanfas_menu > .nav-item .nav-link {
-        font-size: 1.5rem;
-    }
-}
-
-@media (device-width:1280px) {
-    .navbar .offcanfas_menu > .nav-item .nav-link {
-        font-size: 1.4rem;
-    }
-}
-@media (device-width:1920px) {
+@media (min-width:1920px) {
     .navbar .offcanfas_menu > .nav-item .nav-link {
         font-size: 1.9rem;
     }
-    .breadcrumb_area .breadcrumb_shap
-    {
-        width:100%;
-    }
 }
+    /*@media (min-width:1366px) {
+        .navbar .offcanfas_menu > .nav-item .nav-link {
+            font-size: 1.6rem;
+        }
+    }
+
+    @media (min-width:1280px) {
+        .navbar .offcanfas_menu > .nav-item .nav-link {
+            font-size: 1.4rem;
+        }
+    }*/
+
+
+
+    .breadcrumb_area .breadcrumb_shap {
+        width: 100%;
+    }
+
 
 
 .hover_content > .n_hover_content > h3 {
