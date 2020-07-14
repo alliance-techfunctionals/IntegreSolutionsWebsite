@@ -147,12 +147,6 @@
 }
 
 
-
-.chat_features_item .round_circle.Four {
-    background-image: -moz-linear-gradient(-140deg, #f0f483 0%, #ff6a00 100%);
-    background-image: -webkit-linear-gradient(-140deg, #f0f483 0%, #ff6a00 100%);
-    background-image: -ms-linear-gradient(-140deg, #f0f483 0%, #ff6a00 100%);
-}
 /*Partner Logo*/
 .plogo {
     width: 50px;
@@ -170,9 +164,9 @@
         filter: grayscale(100%);
         transition: all 0.5s ease;
     }
-.service_item img
-{
-    margin-right:-15px;
+
+.service_item img {
+    margin-right: -15px;
 }
 /*.owl-stage {
     width: 100% !important;
@@ -232,9 +226,9 @@
     }
 
 
-    .full_header .bar_menu span {
-        /*background-color:var(--logo-color);*/
-    }
+.full_header .bar_menu span {
+    /*background-color:var(--logo-color);*/
+}
 
 .header_area.navbar_fixed .bar_menu span {
     background-color: var(--logo-color);
@@ -482,10 +476,11 @@
     .navbar .offcanfas_menu > .nav-item .nav-link {
         font-size: 1rem;
     }
-    .navbar .offcanfas_menu > .nav-item.submenu .dropdown-menu > .nav-item > .nav-link
-    {
-        font-size:14px;
+
+    .navbar .offcanfas_menu > .nav-item.submenu .dropdown-menu > .nav-item > .nav-link {
+        font-size: 14px;
     }
+
     .header_area_three {
         padding: 0px;
     }
@@ -615,12 +610,13 @@
         align-items: center;
     }
 }
+
 @media (min-width:1920px) {
     .navbar .offcanfas_menu > .nav-item .nav-link {
         font-size: 1.9rem;
     }
 }
-    /*@media (min-width:1366px) {
+/*@media (min-width:1366px) {
         .navbar .offcanfas_menu > .nav-item .nav-link {
             font-size: 1.6rem;
         }
@@ -634,9 +630,9 @@
 
 
 
-    .breadcrumb_area .breadcrumb_shap {
-        width: 100%;
-    }
+.breadcrumb_area .breadcrumb_shap {
+    width: 100%;
+}
 
 
 
@@ -664,3 +660,30 @@ IndexPageSec2 {
     text-align: justify;
     -ms-overflow-style: none;
 }
+
+
+
+/*LoginDashboard*/
+
+.mb_190{
+    margin-bottom:190px;
+}
+.prototype_service_info {
+    height:auto;
+    
+}
+
+.loginpad {
+    padding: 190px 0px 190px 0px;
+    margin: 190px 0px 100px 0px;
+    height: calc(100vh - 150px);
+}
+
+@media (max-width:991px) {
+    .prototype_service_info {
+        
+        height: calc(100vh - 150px);
+        overflow-y: scroll;
+    }
+}
+
